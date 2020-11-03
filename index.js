@@ -12,7 +12,6 @@ const questions = [
         type: 'input',
         message: "What is your GitHub username? (No @ needed)",
         name: 'username',
-        default: 'shelb-doc',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");
@@ -24,7 +23,6 @@ const questions = [
         type: 'input',
         message: "What is the name of your GitHub repo?",
         name: 'repo',
-        default: 'readme-generator',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub repo is required for a badge.");
@@ -36,7 +34,6 @@ const questions = [
         type: 'input',
         message: "What is the title of your project?",
         name: 'title',
-        default: 'Project Title',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid project title is required.");
@@ -48,7 +45,6 @@ const questions = [
         type: 'input',
         message: "Write a description of your project.",
         name: 'description',
-        default: 'Project Description',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid project description is required.");
@@ -86,11 +82,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    
+
 }
+// How the cmd starts
 
 // function to initialize program
-function init() {
+async function init() {
+    try{
+        const userResponses = await inquirer.prompt(questions);
+    } catch  (error) {
+        console.error();
+    }
 
 }
 
