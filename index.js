@@ -89,7 +89,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 async function init() {
     try{
+        // Answer the Questions
         const userResponses = await inquirer.prompt(questions);
+        console.log('Your Response: ', userResponses);
+    
     } catch  (error) {
         console.error();
     }
