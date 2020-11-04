@@ -91,8 +91,12 @@ function writeToFile(fileName, data) {
 async function init() {
     try{
         // Answer the Questions
-        const userResponses = await inquirer.prompt(questions);
-        console.log('Your Response: ', userResponses);
+        const userResponse = await inquirer.prompt(questions);
+        console.log('Your Response: ', userResponse);
+        console.log("Retrieving your GitHub data next");
+
+        const userInfo = await api.getUser(userResponse);
+        console.log("GitHub user info: ", userInfo);
     
     } catch  (error) {
         console.error();
