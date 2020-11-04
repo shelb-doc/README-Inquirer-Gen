@@ -1,5 +1,5 @@
 {
-  "name": "README Inquirer Gen",
+  "name": "READMEInquirerGen",
   "version": "1.0.0",
   "description": "A README generator that make a Good README.md for a new project",
   "main": "index.js",
