@@ -83,16 +83,8 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err => {
-        if (err) {
-            return console.log(err);
-        }
-        console.log("Success!")
-    });
+
 }
-
-const writeFileAsync = util.promisify(writeToFile);
-
 // How the cmd starts
 
 // function to initialize program
