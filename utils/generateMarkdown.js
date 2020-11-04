@@ -6,27 +6,27 @@ function generateMarkdown(userResponse, userInfo) {
   var result = (`# ${userResponse.title}
 ![License](${licenseBadge} \n
 ${userResponse.description}
-## Table of Contents
+\n## Table of Contents
 \n* [Installation](#Installation)
 \n* [Instructions](#Instructions)
 \n* [License](#License)
 \n* [Contributors](#Contributors)
 \n* [Author](#Author)
 \n* [Tests](#Tests)
-## Installation
-${userResponse.installation}
-## Usage
-${userResponse.usage}
-## License 
-This project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
-## Contributing
-${userResponse.contributing}
-## Tests
-${userResponse.tests}
-## Author 
+\n## Installation
+\n${userResponse.installation}
+\n## Usage
+\n${userResponse.usage}
+\n## License 
+\nThis project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
+\n## Contributing
+\n${userResponse.contributing}
+\n## Tests
+\n${userResponse.tests}
+\n## Author 
 \n![ProfileImage](${userInfo.avatar_url})
 \n**${userInfo.name}**
-\nLocation:${userInfo.location}
+\nLocation: ${userInfo.location}
 \n[GitHub](${userInfo.html_url})`)
 
 
