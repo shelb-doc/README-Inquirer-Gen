@@ -6,6 +6,7 @@ const util = require('util');
 // Internal modules
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const api = require('./utils/api.js');
+const tableOfContents = require('./utils/tableOfContents.js');
 
 // array of questions for user
 const questions = [
