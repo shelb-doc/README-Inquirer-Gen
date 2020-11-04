@@ -2,6 +2,7 @@
 // function to generate markdown for README
 function generateMarkdown(userResponse, userInfo) {
   var licenseBadge = generateBadge(userResponse.license)
+  var licenseUrl = generateLicenseUrl(userResponse.license)
   var result = (`# ${userResponse.title}
 ![License](${licenseBadge} \n
 ${userResponse.description}
@@ -17,7 +18,7 @@ ${userResponse.installation}
 ## Usage
 ${userResponse.usage}
 ## License 
-This project is licensed under the ${userResponse.license} - see the file for details
+This project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
 ## Contributing
 ${userResponse.contributing}
 ## Tests
@@ -63,6 +64,39 @@ function generateBadge(license) {
   }
 
   return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color})`;
+}
+
+function generateLicenseUrl(license) {
+  let path;
+  
+  switch (license) {
+    case "GNU AGPLv3":
+      path = "agpl-3.0";
+      break;
+    case "GNU GPLv3":
+      path = "gpl-3.0";
+      break;
+    case "GNU LGPLv3":
+      path = "lgpl-3.0";
+      break;
+    case "Mozilla Public License 2.0":
+      path = "mpl-2.0";
+      break;
+    case "Apache License 2.0":
+      path = "apache-2.0";
+      break;
+    case "MIT License":
+      path = "mit";
+      break;
+    case "Boost Software License 1.0":
+      path = "bsl-1.0";
+      break;
+    case "The Unlicense":
+      path = "unlicense";
+      break;
+  }
+
+  return `https://choosealicense.com/licenses/${path}/`;
 }
 
 module.exports = generateMarkdown;

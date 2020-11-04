@@ -36,7 +36,6 @@ When you run `node index.js`, the application uses the `inquirer` package to pro
 The application then takes your responses and uses `axios` to fetch your GitHub profile from the [GitHub API](https://docs.github.com/en/free-pro-team@latest/rest), including your GitHub profile picture (avatar).
 
 From there, the application will generate markdown and a table of contents for the README conditionally based on your responses to the Inquirer prompts.
-**(so, if you don't answer the optional questions, such as Installation, an Installation section will not be included in your README).**
 The README will also include badges for your GitHub repo.
 
 Finally, `fs.writeFile` is used to generate your project's README.md file. Check out the [`ExampleREADME.md`]() in this repo as an example.
