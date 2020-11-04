@@ -1,7 +1,9 @@
 # Example README
+
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen) 
 
-AS A developer
+this is a test
+
 ## Table of Contents
 
 * [Installation](#Installation)
@@ -18,7 +20,7 @@ AS A developer
 
 ## Installation
 
-SO THAT I can quickly create a professional README for a new project
+this is a test
 
 ## Usage
 

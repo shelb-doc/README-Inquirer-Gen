@@ -4,7 +4,7 @@ function generateMarkdown(userResponse, userInfo) {
   var licenseBadge = generateBadge(userResponse.license)
   var licenseUrl = generateLicenseUrl(userResponse.license)
   var result = (`# ${userResponse.title}
-![License](${licenseBadge} \n
+\n![License](${licenseBadge} \n
 ${userResponse.description}
 \n## Table of Contents
 \n* [Installation](#Installation)

@@ -55,7 +55,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "If applicable, describe the steps required to install your project for the Installation section.",
+        message: "Describe the steps required to install your project for the Installation section.",
         name: 'installation'
     },
     {
@@ -65,12 +65,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
+        message: "Provide guidelines on how other developers can contribute to your project.",
         name: 'contributing'
     },
     {
         type: 'input',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
+        message: "Provide any tests written for your application and provide examples on how to run them.",
         name: 'tests'
     },
     {
