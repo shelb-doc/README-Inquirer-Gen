@@ -9,20 +9,20 @@ ${userResponse.description}
 \n## Table of Contents
 \n* [Installation](#Installation)
 \n* [Instructions](#Instructions)
-\n* [License](#License)
 \n* [Contributors](#Contributors)
-\n* [Author](#Author)
 \n* [Tests](#Tests)
+\n* [License](#License)
+\n* [Author](#Author)
 \n## Installation
 \n${userResponse.installation}
 \n## Usage
 \n${userResponse.usage}
-\n## License
-\nThis project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
 \n## Contributing
 \n${userResponse.contributing}
 \n## Tests
 \n${userResponse.tests}
+\n## License
+\nThis project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
 \n## Author
 \n![ProfileImage](${userInfo.avatar_url})
 \n${userInfo.name}

@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen) 
 
-this is a test
+This is a test on how the Description will be displayed.
 
 ## Table of Contents
 
@@ -10,39 +10,39 @@ this is a test
 
 * [Instructions](#Instructions)
 
-* [License](#License)
-
 * [Contributors](#Contributors)
-
-* [Author](#Author)
 
 * [Tests](#Tests)
 
+* [License](#License)
+
+* [Author](#Author)
+
 ## Installation
 
-this is a test
+This is a test on how the Installation will be displayed.
 
 ## Usage
 
-this is a test
-
-## License 
-
-This project is licensed under the MIT License - see the [License](https://choosealicense.com/licenses/mit/) page.
+This is a test on how the Usage will be displayed.
 
 ## Contributing
 
-this is a test
+This is a test on how the Contribute will be displayed.
 
 ## Tests
 
-this is a test
+This is a test on Tests will be displayed.
 
-## Author 
+## License
+
+This project is licensed under the MIT License - see the [License](https://choosealicense.com/licenses/mit/) page.
+
+## Author
 
 ![ProfileImage](https://avatars0.githubusercontent.com/u/52498115?v=4)
 
-**Shelby De Oliveira Cignetti**
+Shelby De Oliveira Cignetti
 
 Location: Atlanta, Ga
 
