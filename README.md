@@ -38,7 +38,7 @@ The application then takes your responses and uses `axios` to fetch your GitHub 
 From there, the application will generate markdown and a table of contents for the README conditionally based on your responses to the Inquirer prompts.
 The README will also include badges for your GitHub repo.
 
-Finally, `fs.writeFile` is used to generate your project's README.md file. Check out the [`ExampleREADME.md`]() in this repo as an example.
+Finally, `fs.writeFile` is used to generate your project's README.md file. Check out the [`ExampleREADME.md`](https://github.com/shelb-doc/README-Inquirer-Gen/blob/main/ExampleREADME.md) in this repo as an example.
 
 ## Methodology
 
