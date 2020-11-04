@@ -97,6 +97,14 @@ async function init() {
 
         const userInfo = await api.getUser(userResponse);
         console.log("GitHub user info: ", userInfo);
+        console.log("Making Your Coffee.... I Mean README");
+
+        const markdown = generateMarkdown(userResponse, userInfo);
+        console.log(markdown);
+
+        await writeFileAsync('ExampleREADME.md', markdown);
+        console.log("README is Completed....Now sit back and enjoy the Coffee :)");
+
     
     } catch  (error) {
         console.error();
