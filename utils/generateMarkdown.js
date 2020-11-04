@@ -17,15 +17,15 @@ ${userResponse.description}
 \n${userResponse.installation}
 \n## Usage
 \n${userResponse.usage}
-\n## License 
+\n## License
 \nThis project is licensed under the ${userResponse.license} - see the [License](${licenseUrl}) page.
 \n## Contributing
 \n${userResponse.contributing}
 \n## Tests
 \n${userResponse.tests}
-\n## Author 
+\n## Author
 \n![ProfileImage](${userInfo.avatar_url})
-\n**${userInfo.name}**
+\n${userInfo.name}
 \nLocation: ${userInfo.location}
 \n[GitHub](${userInfo.html_url})`)
 
