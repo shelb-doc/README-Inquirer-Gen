@@ -1,7 +1,8 @@
 # README Inquirer Generator
 
 ## Description
-_What is this about_
+
+What is this about
 
   A README generator that make a Good README for a new project
 
